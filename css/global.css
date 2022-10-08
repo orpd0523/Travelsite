@@ -13,6 +13,7 @@ body {
 }
 
 .nav__container {
+  border: 1px solid black;
   max-width: 1280px;
   margin: auto;
   display: flex;

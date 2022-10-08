@@ -11,82 +11,120 @@
   <body>
     <!--Navigation Header-->
     <header>
-        <a href="Should link to Home Page">
-          <h2>Travel Site</h2>
-        </a>
-        <ul>
+      <nav class="nav__container">
+        <div class="nav-logo">
           <a href="Should link to Home Page">
-            <li>Home</li>
+            <h2>Travel Site</h2>
           </a>
-          <a href="Should link to Destination Page-Hawaii">
-            <li>Hawaii</li>
-          </a>
-          <a href="Should link to Destination Page-Iceland">
-            <li>Iceland</li>
-          </a>
-          <a href="Should link to Destination Page-Greece">
-            <li>Greece</li>
-          </a>
-        </ul>
-      </header>
+        </div>
+        <div class="nav-destinations">
+          <ul class="nav-destination-locations">
+            <li><a href="Should link to Home Page">Home</a></li>
+
+            <li>
+              <a href="Should link to Destination Page-Hawaii">Hawaii </a>
+            </li>
+
+            <li>
+              <a href="Should link to Destination Page-Iceland">Iceland</a>
+            </li>
+
+            <li>
+              <a href="Should link to Destination Page-Greece">Greece </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <!--Main Body-->
-      <section>
-        <a>
-            <img alt="Background Photo Here"/>
-        </a>
+    <section>
+      <img alt="Background Photo Here put in CSS" />
+      <div class="destination-title">
         <h1>Hawaii</h1>
-        <div>
-            <h2>Friday</h2>
-            <ul>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-                <li>Dinner</li>
-                <li>Snorkeling</li>
-            </ul>
+      </div>
+
+      <div class="itinerary-card">
+        <div class="itinerary-day">
+          <h2>Friday</h2>
         </div>
+
         <div>
-            <h2>Saturday</h2>
-            <ul>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-                <li>Dinner</li>
-                <li>Snorkeling</li>
-            </ul>
+          <ul >
+            <li class="itinerary-activity">Breakfast</li>
+            <li class="itinerary-activity">Lunch</li>
+            <li class="itinerary-activity">Dinner</li>
+            <li class="itinerary-activity">Snorkeling</li>
+          </ul>
         </div>
-        <div>
-            <h2>Sunday</h2>
-            <ul>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-                <li>Dinner</li>
-                <li>Snorkeling</li>
-            </ul>
+      </div>
+
+      <div class="itinerary-card">
+        <div class="itinerary-day">
+          <h2>Saturday</h2>
         </div>
-      </section>
+
+        <ul>
+          <li class="itinerary-activity">Breakfast</li>
+          <li class="itinerary-activity">Lunch</li>
+          <li class="itinerary-activity">Dinner</li>
+          <li class="itinerary-activity">Snorkeling</li>
+        </ul>
+      </div>
+
+      <div class="itinerary-card">
+        <div class="itinerary-day">
+          <h2>Sunday</h2>
+        </div>
+
+        <ul>
+          <li class="itinerary-activity">Breakfast</li>
+          <li class="itinerary-activity">Lunch</li>
+          <li class="itinerary-activity">Dinner</li>
+          <li class="itinerary-activity">Snorkeling</li>
+        </ul>
+      </div>
+    </section>
     <!--Navigation Footer-->
     <footer>
+      <div class="footer__container">
         <div>
-          <h3>Contact</h3>
-          <p>EMAIL</p>
-          <p>info@travelsite.com</p>
+          <div class="contact-title">
+            <h3>Contact</h3>
+          </div>
+          <div class="text-email">
+            <p>EMAIL</p>
+          </div>
+          <div class="contact-email">
+            <p>info@travelsite.com</p>
+          </div>
+          <div class="contact-hours">
+            <h3>Hours</h3>
+          </div>
+          <div class="contact-days">
+            <p>Monday - Friday Saturday Sunday</p>
+          </div>
+          <div class="contact-hours">
+            <p>9:00 am - 5:00 pm 10:00 am - 4:00 pm Closed</p>
+          </div>
         </div>
         <div>
-          <h3>Hours</h3>
-          <p>Monday - Friday Saturday Sunday</p>
-          <p>9:00 am - 5:00 pm 10:00 am - 4:00 pm Closed</p>
+          <div class="text-social">
+            <h3>Social</h3>
+          </div>
+          <div class="social-logo"></div>
+          <a>
+            <img alt="Instagram Logo Here" />
+          </a>
+          <div class="social-logo"></div>
+          <a>
+            <img alt="Facebook Logo Here" />
+          </a>
+          <div class="social-logo"></div>
+          <a>
+            <img alt="Twitter Logo Here" />
+          </a>
         </div>
-        <div>
-          <h3>Social</h3>
-          <a>
-              <img alt="Instagram Logo Here"/>
-          </a>
-          <a>
-              <img alt="Facebook Logo Here"/>
-          </a>
-          <a>
-              <img alt="Twitter Logo Here"/>
-          </a>
-        </div>
-      </footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
