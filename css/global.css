@@ -1,0 +1,29 @@
+body {
+    font-family: verdana, sans-serif;
+}
+
+.nav__container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    
+
+    position:;
+}
+
+.nav-logo {
+    border: 1px solid green;
+    
+}
+
+.nav-destinations {
+    border: 1px solid black;
+}
+
+header a {
+    color: #335576;
+    text-decoration: none;
+    list-style: none;
+}
