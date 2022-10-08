@@ -1,56 +1,54 @@
 .hero__container {
-    border: 1px solid black;
-    background-color: #FEFAF5;
+  border: 1px solid black;
+  background-color: #fefaf5;
 }
 
 .traveling-plane-image {
-    max-width: 500px;
-    height: auto;
+  max-width: 500px;
+  height: auto;
 }
 
-.recommendations__container{
-    border: 1px solid black;
-    background-color: #FFFFFF;;
+.recommendations__container {
+  border: 1px solid black;
+  background-color: #ffffff;
 }
 
-
-.hero__traveling{
-    border: 1px solid black;
+.hero__traveling {
+  border: 1px solid black;
 }
 
 .traveling-dreams {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .traveling-button {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .recommendations-title {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .text-hawaii {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .box-hawaii {
-    border: 1px solid black;
-    
+  border: 1px solid black;
 }
 
 .text-iceland {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .box-iceland {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .text-greece {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .box-greece {
-    border: 1px solid black;
+  border: 1px solid black;
 }
