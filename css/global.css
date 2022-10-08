@@ -51,10 +51,12 @@ header a {
 
 .contact-title {
   border: 1px solid black;
+  color: #335576;
 }
 
 .text-email {
   border: 1px solid black;
+  color:#DB7A4E;
 }
 
 .contact-email {
@@ -63,10 +65,12 @@ header a {
 
 .text-hours {
   border: 1px solid black;
+  color: #335576;
 }
 
 .contact-days {
   border: 1px solid black;
+  color:#DB7A4E;
 }
 
 .contact-hours {
@@ -75,8 +79,14 @@ header a {
 
 .text-social {
   border: 1px solid black;
+  color: #335576;
 }
 
 .social-logo {
   border: 1px solid black;
+}
+
+.footer__container{
+    border: 1px solid black;
+    background-color: #FEFAF5;
 }

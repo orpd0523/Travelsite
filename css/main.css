@@ -3,15 +3,16 @@
     background-color: #FEFAF5;
 }
 
+.traveling-plane-image {
+    max-width: 500px;
+    height: auto;
+}
+
 .recommendations__container{
     border: 1px solid black;
     background-color: #FFFFFF;;
 }
 
-.footer__container{
-    border: 1px solid black;
-    background-color: #FEFAF5;
-}
 
 .hero__traveling{
     border: 1px solid black;
@@ -35,6 +36,7 @@
 
 .box-hawaii {
     border: 1px solid black;
+    
 }
 
 .text-iceland {
