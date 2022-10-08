@@ -1,29 +1,81 @@
 body {
-    font-family: verdana, sans-serif;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.nav__container{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-    position:;
+.nav__container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-logo {
-    border: 1px solid green;
-    
+  border: 1px solid green;
 }
 
 .nav-destinations {
-    border: 1px solid black;
+  border: 1px solid black;
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+}
+
+.nav-destination-locations {
+  list-style: none;
+  display: flex;
 }
 
 header a {
-    color: #335576;
-    text-decoration: none;
-    list-style: none;
+  background-color: #ffffff;
+  color: #335576;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.footer__container {
+  border: 1px solid black;
+}
+
+.contact-title {
+  border: 1px solid black;
+}
+
+.text-email {
+  border: 1px solid black;
+}
+
+.contact-email {
+  border: 1px solid black;
+}
+
+.text-hours {
+  border: 1px solid black;
+}
+
+.contact-days {
+  border: 1px solid black;
+}
+
+.contact-hours {
+  border: 1px solid black;
+}
+
+.text-social {
+  border: 1px solid black;
+}
+
+.social-logo {
+  border: 1px solid black;
 }
