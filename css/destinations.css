@@ -4,7 +4,7 @@
 
 .itinerary-card {
     border: 1px solid black;
-    background-color: #ffffff;
+    background-color:var()
 }
 
 .itinerary-day {

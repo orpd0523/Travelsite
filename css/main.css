@@ -1,24 +1,42 @@
 .hero__container {
-  border: 1px solid black;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
   background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
 }
 
-.hero-traveling-comes {
-  border: 1px solid black;
+.hero__cta {
+  color:var(--primary);
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.hero-text-dreams {
-  border: 1px solid black;
+.hero__container p {
+  font-size: 10px;
 }
 
 .hero-button {
-  border: 1px solid black;
+  max-width: 140px;
+  color: var(--white);
+  background-color: var(--secondary);
+  border: none;
+  margin-top: 15px;
+  border-radius: 50px;
+  height: 30px;
 }
 
 .hero-plane-image {
-  max-width: 500px;
+  max-width: 300px;
   height: auto;
 }
+
+
+
+
 
 .recommendations__container {
   border: 1px solid black;
