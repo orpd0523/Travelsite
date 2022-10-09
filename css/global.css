@@ -47,48 +47,47 @@ header a {
   padding: 0;
 }
 
-.footer__container {
-  border: 1px solid black;
-}
-
-.contact-title {
-  border: 1px solid black;
-  color: #335576;
-}
-
-.text-email {
-  border: 1px solid black;
-  color:#DB7A4E;
-}
-
-.contact-email {
-  border: 1px solid black;
-}
-
-.text-hours {
-  border: 1px solid black;
-  color: #335576;
-}
-
-.contact-days {
-  border: 1px solid black;
-  color:#DB7A4E;
-}
-
-.contact-hours {
-  border: 1px solid black;
-}
-
-.text-social {
-  border: 1px solid black;
-  color: #335576;
-}
-
-.social-logo {
-  border: 1px solid black;
-}
-
 .footer__container{
-    border: 1px solid black;
     background-color: #FEFAF5;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__container > div {
+  margin: 0 40px;
+}
+
+.footer__container h2, .footer__container p {
+  color: #335576;
+}
+
+.footer__container h3 {
+  color:#DB7A4E;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.footer__container p {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.footer__container ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} 
+
+.footer__container li {
+  padding-right: 40px;
+}
+
+.footer-social-logo {
+  border: 1px solid black;
 }
