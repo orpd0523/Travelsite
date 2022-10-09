@@ -13,7 +13,6 @@ body {
 }
 
 .nav__container {
-  border: 1px solid black;
   max-width: 1280px;
   margin: auto;
   display: flex;
@@ -22,11 +21,14 @@ body {
 }
 
 .nav-logo {
-  border: 1px solid green;
+  display: flex;
+}
+
+.nav-logo  h2 {
+  margin: 0;
 }
 
 .nav-destinations {
-  border: 1px solid black;
   display: flex;
   align-items: row;
   justify-content: space-between;
