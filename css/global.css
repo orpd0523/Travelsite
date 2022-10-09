@@ -89,5 +89,19 @@ header a {
 }
 
 .footer-social-logo {
-  border: 1px solid black;
+ display: flex;
+ justify-content: space-between; 
 }
+
+.footer-social-logo img {
+  width: auto;
+  height: 25px; 
+}
+
+.social-logo {
+  margin: 0 15px;
+} 
+
+.social-logo:first-child {
+  margin-left: 0;
+} 
