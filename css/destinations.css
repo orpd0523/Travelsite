@@ -1,64 +1,57 @@
-.hawaii-image {
-    background-image: url("../assets/images/hawaii.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
+.destination {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
 }
 
-.iceland-image {
-    background-image: url("../assets/images/iceland.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
+.destination--hawaii {
+  background-image: url("../assets/images/hawaii.jpg");
 }
 
-.greece-image {
-    background-image: url("../assets/images/greece.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
+.destination--iceland {
+  background-image: url("../assets/images/iceland.jpg");
+}
+
+.destination--greece {
+  background-image: url("../assets/images/greece.jpg");
 }
 
 h1 {
-    color: var(--white);
-    padding: 60px 60px 12px;
-    font-size: 50px;
+  color: var(--white);
+  padding: 60px 60px 12px;
+  font-size: 50px;
 }
 
 .itinerary-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .itinerary-card {
-    background-color: #ffffff;
-    text-align: center;
-    margin: 0 20px;
-    height: 330px;
-    width: 220px;
-    padding: 0 10px;
-    border-radius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 20px;
+  height: 330px;
+  width: 220px;
+  padding: 0 10px;
+  border-radius: 5px;
 }
 
-
 .itinerary-card h2 {
-    font-size: 16px;
-    margin-bottom: 20px;
-    border-bottom: 3px solid black;
-
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid black;
 }
 
 .itinerary-card ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .itinerary-card li {
-    background-color: var(--background);
-    margin-bottom: 10px;
-    padding: 15px;
+  background-color: var(--background);
+  margin-bottom: 10px;
+  padding: 15px;
 }

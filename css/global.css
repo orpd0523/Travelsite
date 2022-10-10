@@ -1,9 +1,9 @@
 :root {
-  --primary:#335576;
-  --secondary:#db7a4e;
-  --background:#fefaf5;
-  --white:#FFFFFF;
-  --black:#000000;
+  --primary: #335576;
+  --secondary: #db7a4e;
+  --background: #fefaf5;
+  --white: #ffffff;
+  --black: #000000;
 }
 
 body {
@@ -29,7 +29,7 @@ header {
 }
 
 main {
-  margin-top: 51px; ;
+  margin-top: 51px;
 }
 
 .nav__container {
@@ -46,6 +46,10 @@ main {
 
 .nav-logo h2 {
   margin: 0 20px;
+}
+
+.selected {
+  border-bottom: 3px solid var(--secondary);
 }
 
 .nav-destinations {
@@ -76,14 +80,16 @@ header a {
   align-items: stretch;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0 auto;
 }
 
 .footer__container > div {
-  margin: 0 40px;
+  margin: 0 80px;
 }
 
 .footer__container h2,
-.footer__container p, .footer__container a {
+.footer__container p,
+.footer__container a {
   color: var(--primary);
 }
 
