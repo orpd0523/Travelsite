@@ -6,6 +6,22 @@
     min-height: 600px;
 }
 
+.iceland-image {
+    background-image: url("../assets/images/iceland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.greece-image {
+    background-image: url("../assets/images/greece.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
 h1 {
     color: var(--white);
     padding: 60px 60px 12px;
