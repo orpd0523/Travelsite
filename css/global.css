@@ -83,8 +83,12 @@ header a {
 }
 
 .footer__container h2,
-.footer__container p {
+.footer__container p, .footer__container a {
   color: var(--primary);
+}
+
+.footer__container a {
+  text-decoration: none;
 }
 
 .footer__container h3 {
