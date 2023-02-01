@@ -127,7 +127,10 @@ header a {
 .footer-social-logo img {
   width: auto;
   height: 25px;
-}
+    -webkit-filter: opacity(0.3) drop-shadow(0 0 0 #372549);
+    filter: opacity(0.3) drop-shadow(0 0 0 #372549);
+  }
+
 
 .social-logo {
   margin: 0 15px;
