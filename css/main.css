@@ -65,6 +65,8 @@
   border-radius: 5px;
   border: 1px solid #00000033;
   box-shadow: 0px 4px 4px #00000033;
+  object-fit:cover;
+  object-position: -130px;
 }
 
 .card-box h3 {
